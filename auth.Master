@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="auth.master.cs" Inherits="Realestates.auth" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="auth-body">
+    <form id="form1" runat="server">
+        <div class="logo">
+            <asp:Label ID="lblLogo" runat="server" Text="O-REAL ESTATE"></asp:Label>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
